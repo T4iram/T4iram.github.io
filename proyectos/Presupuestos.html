@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Página de práctica masterD"> 
+        <meta name="robots" content="NOFOLLOW">
+        <!-- Declaración de fichero de estilos-->
+        <link rel="stylesheet" type="text/css" href="../styls/estilos2.css">
+        <title>Práctica 4 - Sitio Web</title>
+    </head>
+    <body>
+        <div id="div_header" ><img height="1060" width="424" src="../assets/figmadiseño1.png"   alt="imagen de cabecera"></div> 
+             <!--Div que contiene el menú-->
+        <header class="header">
+            <div class="logo" ><img height="1060" width="424" src="../assets/figmadiseño1.png"  height="70%"  alt="imagen de cabecera"></div> 
+            <nav>  
+                    <ul class="nav-links">
+                        <li >
+                          <a  aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li >
+                          <a  href="./Productos.html">Productos</a>
+                        </li>
+                        <li >
+                          <a class="action" href="./Presupuestos.html">Presupuestos</a>
+                        </li>
+                        <li >
+                          <a  href="./Contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+            </nav>
+        </header>
+            <h2>Formulario de Inscripción</h2>
+        <form class="caja_formulario" action="#" method="GET">
+        <fieldset class="caja_formulario">
+        <legend>Datos personales </legend>
+        <h3 class="input_data"> RELLENA LOS SIGUIENTES CAMPOS:</h3>
+            <div class="input_data">
+               <label for="nombre" class="data_label"> </label>  Nombre:
+                <input type="text" name="name"  class="caja_gris" maxlength="50" pattern="[A-Za-z][\.]{*}"
+                size="40" id="nombre" value="" placeholder="Nombre   (requerido)" required "> 
+            </div>
+            <div class="input_data">
+                <label for="direcíon" class="data_label"  class="centrar"> </label> Direcíon: 
+                <input type="text" name="nombre" class="caja_gris morado" maxlength="50" pattern="[A-Za-z0-9]{1,10}[\.]"
+                size="40" id="direcíon" value="" placeholder="Dirección   (requerido)" required > 
+            </div>
+            <div class="input_data">   
+                <label for="Telefono-de-contacto" class="data_label" > </label> Telefono de contacto: 
+                <input  type="text" name="telefono-de-contacto" class="caja_gris morado" maxlength="50" pattern="[\d]{9}" 
+                size="40" id="Telefono-de-contacto" value="" placeholder="Teléfono   (requerido)" required> 
+            </div>
+            <div class="input_data">
+                <label for="edad" class="data_label" > </label>Edad:  
+                 <input type="text" name="nombre" class="caja_gris morado" maxlength="50" pattern="[0-9]{1,3}" 
+                size="40" id="edad" value="" placeholder="Edad   (requerido)" required > 
+            </div>
+            <div class="input_data">  
+                <label for="e-mail" class="data_label"> </label> e-mail:
+                  <input type="text" name="nombre" class="caja_gris morado" maxlength="50" pattern="[A-Za-z0-9]{*}"
+                size="40" id="e-mail" value="" placeholder="Direccion@correo.com   (requerido)" required >
+            </div>
+            <div class="input_data">
+                <input type="checkbox" name="Aceptar politica de privacidad" value="S"> Aceptar politica de privacidad <br>
+            
+            </div>
+            <div  class="input_data">
+            <input type="submit" name="Boton de enviar" value="ENVIAR FORMULARIO" class="boton_form " >
+            <input type="reset" name="Boton de borrado" value="BORRAR FORMULARIO" class="boton_form " >
+            </div>
+        </fieldset>
+        </form>
+    
+    
+    
+    <footer>
+        <div id="div_footer">
+            J.Robert Paginá prototipo de una web de noticias e infromación.
+            <a  href="https://www.instagram.com/">
+                <img height="515" width="515" class="icono" src="../assets/instagram_socialnetwork_20033.png" alt="instagram">
+            </a>
+            <a href="https://www.facebook.com/">
+                <img height="515" width="515" class="icono" src="../assets/facebook_icon-icons.com_53612.png" alt="facebook">
+            </a>
+        </div>
+    </footer>
+    </body>
+</html>
